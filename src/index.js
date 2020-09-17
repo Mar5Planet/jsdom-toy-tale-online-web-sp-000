@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <h2>${toyObject.name}</h2>
       <img src="${toyObject.image}" class="toy-avatar" />
       <p> <span class="like-value">${toyObject.likes}</span> Likes </p>
-      <h4 class="hidden"> ${toyObject.id} </h4>
+      <h4 class="hidden">${toyObject.id}</h4>
       <button class="like-btn">Like <3</button>`
     toyCollection.append(toyDiv) 
     
